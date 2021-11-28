@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/btnBgColorOriginal"
+        android:title="배경색(오리지날)"></item>
+    <item
+        android:id="@+id/btnBgColorBlue"
+        android:title="배경색(파랑)"></item>
+    <item
+        android:id="@+id/btnBgColorRed"
+        android:title="배경색(빨강)"></item>
+    <item android:title="버튼각도 >>">
+        <menu>
+            <item
+                android:id="@+id/btnBtnRotate0"
+                android:title="버튼각도초기화">
+            </item>
+            <item
+                android:id="@+id/btnBtnRotate45"
+                android:title="버튼각도45">
+            </item>
+        </menu>
+    </item>
+
+</menu>

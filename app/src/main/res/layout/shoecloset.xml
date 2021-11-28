@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="신발장"
+        android:textColor="#000000"
+        android:textSize="36dp" />
+
+    <RadioGroup
+        android:id="@+id/rdoGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rdoFshoe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="첫번째"
+            android:textColor="#000000" />
+
+        <RadioButton
+            android:id="@+id/rdoSshoe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="두번째"
+            android:textColor="#000000" />
+
+        <RadioButton
+            android:id="@+id/rdoTshoe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="세번째"
+            android:textColor="#000000" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnShowShoe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="보기"
+        android:textColor="#000000" />
+
+    <ImageView
+        android:id="@+id/showShoe"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

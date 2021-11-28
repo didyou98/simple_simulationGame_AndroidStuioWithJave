@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@+id/baseLayout">
+
+    <Button
+        android:id="@+id/btnImgEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="그림변경하기" />
+
+    <ImageView
+        android:id="@+id/imgView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:rotation="45"
+        android:src="@drawable/renoir01" />
+
+    <Button
+        android:id="@+id/btnBackViewPicture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="돌아가기" />
+</LinearLayout>

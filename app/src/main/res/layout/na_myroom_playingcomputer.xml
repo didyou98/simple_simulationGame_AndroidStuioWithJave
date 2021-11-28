@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="컴퓨터 전원 키기"
+        android:textSize="36dp"
+        android:typeface="normal" />
+
+    <CheckBox
+        android:id="@+id/chkComputerOn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="전원" />
+
+    <Button
+        android:id="@+id/btnCalc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="계산기열기"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btnOpenBrowser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="검색하기"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btnGoDial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="전화하기"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btnGoGoogleMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="구글맵열기"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btnGoSMS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="문자보내기"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btnGoPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="사진찍기"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btnGoMemo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="메모장열기"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btnBackMyRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="돌아가기" />
+</LinearLayout>
